@@ -6,4 +6,6 @@ function cityWeather(city) {
     .then((data) => displayWeather(data));
 }
 
+function displayWeather(data) {}
+
 cityWeather("Barcelona");
